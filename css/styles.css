@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* adds a movie pallete background to the first section */
+.content1{
+    background-image: url(https://mrshane06.github.io/hulu-images/background-img.jpg);
+    background-size:cover;
+    background-position: -13.5em;
+    height: 115vh;
+}
+
+/*nav bar's template */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+nav > div{
+    padding: .5em;
+}
+/* nav bar hulu logo */
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 1.5em;
+}
+.main-logo{
+ height: 24px;
+}
+
+/* nav bar login */
+.login-btn{
+ font-family:sans-serif;
+
+}
+
+.login-btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a8afbd;
+}
+
+/* sub-section styling */
+.partners-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    font-family: sans-serif;
+
+}
+
+.partnersDiv{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.partnersDiv .title{
+    color: #00ED82;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 1em;
+    width: 20em;
+}
+
+.partnerLogo {
+}
+.partnerLogo img{
+    width: 12em;
+}
+.partnerSubHeadline{
+    color: white;
+    font-size: 3ch;
+    font-weight: 600;
+    text-align: center;
+    padding: 1em;
+}
+
+.partnerSignUp{
+    background-color: #00ED82;
+    padding: 1em 0 1em 0;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: .5em;
+    border: none;
+    outline: none;
+}
+/* sign up div */
+.signUp-div{
+    display: flex;
+    flex-direction: column;
+    height: 18em;
+    justify-content: space-between;
+}
+.signUp-div center{
+    justify-content: space-between;
+    -ms-flex: 1;
+ flex: 1;
+ 
+}
+.signUp-div > div, .signUp-div button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+ 
+}
+.tnc-btn{
+ background-color: transparent;
+ box-shadow: none;
+ border: none;
+ margin: 0;
+ color: #FFFFFF;
+ text-decoration: underline;
+ padding: 1em;
+ font-size: 12px;
+}
+/* sign up container */
+.signUp-cont a{
+    text-decoration: underline;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 2.7ch;
+
+}
+
+/* last part of the first section */
+
+.plans-text span{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.5ch;
+    
+}
+.plans-div{
+    display: flex;
+    flex-direction: column;
+}
+.plans-div button{
+    
+    background-color: transparent;
+    color: white;
+    border: white solid 2px;
+    outline: none;
+    padding: .7em;
+    width: 3em;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 5ch;
+ 
+}
+.plans-text a{
+    
+    text-decoration: none;
+}
+/* linear gradient first section footer */
+.lingradPlanDiv{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    width: 100%;
+    background-image: linear-gradient(to top, #121919, #269861);
+    justify-content: space-around;
+}
+
+.lingradPlanDiv h3{
+    text-align: center;
+}
+.lingradPlanDiv button{
+    background-color: transparent;
+    width: 20em;
+    margin: 0 auto;
+    font-size: 1.4ch;
+    padding: 1em 2% 1em 2%;
+    color: white;
+    text-transform: uppercase;
+
+    border: 2px white solid;
+    outline: none;
+    border-radius: .5em;
+}
+
+/* content 2 styling */
+.content2{
+    background-color: #0b0c0f;
+    height: 185vh;
+}
+
+.contentLibraryInfoDiv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    padding: 6em 4em 1em 4em;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.contentLibraryInfoDiv h3{
+    color: #00ED82;
+    text-transform: uppercase;
+    font-size: 2ch;
+}
+.contentLibraryInfoDiv h1{
+    text-transform: capitalize;
+}
+.contentLibraryInfoDiv p{
+    font-size: 2.4ch;
+}
+.contentLibraryInfoDiv > *{
+    margin-top: .5em;
+}
+
+/* show cards library */
+.contentLibrary{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    overflow-wrap: normal;
+    flex-wrap: wrap;
+    padding: 2em;
+    margin: 0 auto;
+    justify-content: center;
+
+
+}
+.showTemplate {
+    width: fit-content;
+    padding: 1em;
+    border-radius: 4em;
+    
+}
+.showTemplate > img{
+   width: 300px;
+   border-radius: 1em;
+}
